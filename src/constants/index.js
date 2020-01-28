@@ -1,0 +1,3 @@
+import { SWITCH_STYLES, SWITCH_NAVBAR_STYLES } from './actions'
+
+export { SWITCH_STYLES, SWITCH_NAVBAR_STYLES }
