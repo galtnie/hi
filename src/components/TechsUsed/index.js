@@ -44,7 +44,7 @@ export default () => {
             >
               <div className={classes.card}>
                 <ImageContainer logo={item.logo} />
-                {item.name}
+                {item.name} Development
               </div>
             </Tilt>
           </SlideContainer>

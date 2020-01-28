@@ -1,10 +1,9 @@
 import Container from "./Container";
 import Footer from "./Footer";
 import FullScreenContainer from "./FullScreenContainer";
-import HomeLowerContainer from "./HomeLowerContainer";
 import HomeMiddleContainer from "./HomeMiddleContainer";
-import HomeUpperContainer from "./HomeUpperContainer";
 import Logo from "./Logo";
+import LowerContainer from "./LowerContainer";
 import MiddleText from "./MiddleText";
 import Partners from "./Partners";
 import ProjectKickoff from "./ProjectKickoff";
@@ -16,15 +15,15 @@ import SlideContainer from "./SlideContainer";
 import SwitchStylesContainer from './SwitchStylesContainer';
 import TechsUsed from './TechsUsed';
 import UpperBar from "./UpperBar";
+import UpperContainer from "./UpperContainer";
 
 
 export {
   Container,
   Footer,
   FullScreenContainer,
-  HomeLowerContainer,
   HomeMiddleContainer,
-  HomeUpperContainer,
+  LowerContainer,
   Logo,
   MiddleText,
   Partners,
@@ -36,5 +35,6 @@ export {
   SlideContainer,
   SwitchStylesContainer,
   TechsUsed,
-  UpperBar
+  UpperBar,
+  UpperContainer
 };

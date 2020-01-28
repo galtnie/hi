@@ -14,11 +14,11 @@ export default ({
   const dispatch = useDispatch();
   const alterableStyles = useSelector(state => state.alterableStyles);
 
-  let switcher = useRef(null);
+  // let switcher = useRef(null);
   let scrollRef = useRef(null);
   let container = useRef(null);
 
-  let switcher_ = useRef(null);
+  let switcher = useRef(null);
 
   const compareStyles = (current = {}, next = {}, navbarOnly = false) => {
     if (!next) {
@@ -69,12 +69,12 @@ export default ({
               scrollEffect.off &&
               compareStyles(alterableStyles, scrollEffect.off, navbarOnly)
             ) {
-              if (!isEqual(scrollEffect.off, switcher_.current)) {
+              if (!isEqual(scrollEffect.off, switcher.current)) {
                 dispatch({
                   type: navbarOnly ? SWITCH_NAVBAR_STYLES : SWITCH_STYLES,
                   payload: scrollEffect.off
                 });
-                switcher_.current = scrollEffect.off;
+                switcher.current = scrollEffect.off;
               }
             }
           }
@@ -87,12 +87,12 @@ export default ({
               scrollEffect.on &&
               compareStyles(alterableStyles, scrollEffect.on, navbarOnly)
             ) {
-              if (!isEqual(scrollEffect.on, switcher_.current)) {
+              if (!isEqual(scrollEffect.on, switcher.current)) {
                 dispatch({
                   type: navbarOnly ? SWITCH_NAVBAR_STYLES : SWITCH_STYLES,
                   payload: scrollEffect.on
                 });
-                switcher_.current = scrollEffect.on;
+                switcher.current = scrollEffect.on;
               }
             }
           }
@@ -112,12 +112,12 @@ export default ({
               scrollEffect.off &&
               compareStyles(alterableStyles, scrollEffect.off, navbarOnly)
             ) {
-              if (!isEqual(scrollEffect.off, switcher_.current)) {
+              if (!isEqual(scrollEffect.off, switcher.current)) {
                 dispatch({
                   type: navbarOnly ? SWITCH_NAVBAR_STYLES : SWITCH_STYLES,
                   payload: scrollEffect.off
                 });
-                switcher_.current = scrollEffect.off;
+                switcher.current = scrollEffect.off;
               }
             }
           }
@@ -128,12 +128,12 @@ export default ({
               scrollEffect.on &&
               compareStyles(alterableStyles, scrollEffect.on, navbarOnly)
             ) {
-              if (!isEqual(scrollEffect.on, switcher_.current)) {
+              if (!isEqual(scrollEffect.on, switcher.current)) {
                 dispatch({
                   type: navbarOnly ? SWITCH_NAVBAR_STYLES : SWITCH_STYLES,
                   payload: scrollEffect.on
                 });
-                switcher_.current = scrollEffect.on;
+                switcher.current = scrollEffect.on;
               }
             }
           }
