@@ -134,6 +134,8 @@ export const ourService = {
       title: "Web Development",
       text:
         "Our tech stack includes the most progressive technologies which are excellent tools to build perfect web applications.",
+      service_text:
+        "We provide full-stack development services specializing in Angular, React and Node.js for the backend. We always adopt latest stable versions of available frameworks so that our clients receive modern features.",
       image: {
         desktop: {
           backgroundPosition: "-16rem -53.1rem",
@@ -152,6 +154,7 @@ export const ourService = {
       title: "App Development",
       text:
         "We craft hybrid mobile applications that run on iOS, Android, Windows mobile platforms.",
+      service_text: 'We focus on creating the hybrid, native and progressive web applications that run literally on every modern device you can find. React Native and Ionic toolset is what helps us to bring your app to the mobile web.',
       image: {
         desktop: {
           backgroundPosition: "-19.6rem 0rem",
@@ -170,6 +173,7 @@ export const ourService = {
       title: "UI/UX Design",
       text:
         "Our design primary goal is user experience. We believe design should move with the times and integrate the latest techniques.",
+      service_text: 'We make UI/UX design, draw wireframes and create prototypes for applications and websites. The usability and style are what we place at the heart of our approach.',
       image: {
         desktop: {
           backgroundPosition: "-14.6rem -19.5rem",
@@ -188,6 +192,7 @@ export const ourService = {
       title: "Solutions for Startups",
       text:
         "Do you have a bold idea for your online product? Our highly skilled software development team will implement your visionary idea into reality.",
+      service_text: 'We provide more than just development for startups. We provide a way to evolve into a successful business with the power of tech solutions. The potential of the startup is our top priority, we developed startup applications for FinTech and Blockchain technology, eCommerce and Retail, Healthcare and Software.',
       image: {
         desktop: {
           backgroundPosition: "-11.9rem -62.7rem",

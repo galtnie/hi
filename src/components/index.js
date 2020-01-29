@@ -1,9 +1,9 @@
 import Container from "./Container";
 import Footer from "./Footer";
 import FullScreenContainer from "./FullScreenContainer";
-import HomeMiddleContainer from "./HomeMiddleContainer";
 import Logo from "./Logo";
 import LowerContainer from "./LowerContainer";
+import MiddleContainer from "./MiddleContainer";
 import MiddleText from "./MiddleText";
 import Partners from "./Partners";
 import ProjectKickoff from "./ProjectKickoff";
@@ -11,6 +11,7 @@ import Scroll from "./Scroll";
 import ScrollArrow from "./ScrollArrow";
 import ScrollContainer from "./ScrollContainer";
 import SendMessageButton from "./SendMessageButton";
+import SendMessageContainer from "./SendMessageContainer";
 import SlideContainer from "./SlideContainer";
 import SwitchStylesContainer from './SwitchStylesContainer';
 import TechsUsed from './TechsUsed';
@@ -22,9 +23,9 @@ export {
   Container,
   Footer,
   FullScreenContainer,
-  HomeMiddleContainer,
   LowerContainer,
   Logo,
+  MiddleContainer,
   MiddleText,
   Partners,
   ProjectKickoff,
@@ -32,6 +33,7 @@ export {
   ScrollArrow,
   ScrollContainer,
   SendMessageButton,
+  SendMessageContainer,
   SlideContainer,
   SwitchStylesContainer,
   TechsUsed,

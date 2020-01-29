@@ -17,7 +17,6 @@ export default ({
   // let switcher = useRef(null);
   let scrollRef = useRef(null);
   let container = useRef(null);
-
   let switcher = useRef(null);
 
   const compareStyles = (current = {}, next = {}, navbarOnly = false) => {

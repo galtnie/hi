@@ -3,11 +3,8 @@ import { NavLink } from "react-router-dom";
 import { navigationList } from "constants/data";
 import {
   Toolbar
-  // Grid,
-  // Hidden,
-  // Typography
 } from "@material-ui/core/";
-import { AppBarWrapper } from 'components/UpperBar/alterableStyles'
+import { AppBarWrapper } from 'components/UpperBar/styledComponents'
 import { useStyles } from "components/UpperBar/styles";
 import { Container, Logo, SwitchStylesContainer } from "components";
 import { useSelector } from 'react-redux';

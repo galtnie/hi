@@ -1,4 +1,4 @@
-import { SWITCH_STYLES, SWITCH_NAVBAR_STYLES } from "../constants";
+import { RESET_STYLES, SWITCH_STYLES, SWITCH_NAVBAR_STYLES } from "../constants";
 
 const initial = {
   backgroundColor: {
@@ -22,6 +22,8 @@ const initial = {
 
 export default (state = initial, action) => {
   switch (action.type) {
+    case RESET_STYLES:
+      return initial
     case SWITCH_STYLES:
       return { ...action.payload };
     case SWITCH_NAVBAR_STYLES:
